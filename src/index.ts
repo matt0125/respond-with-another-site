@@ -12,6 +12,6 @@ export default {
 		}
 		// Only GET requests work with this proxy.
 		if (request.method !== "GET") return MethodNotAllowed(request);
-		return fetch(`https://example.com`);
+		return fetch(`https://theknot.com/cheyenneandmatthew2026`);
 	},
 } satisfies ExportedHandler;
