@@ -1,3 +1,5 @@
+//
+
 export default {
 	async fetch(request): Promise<Response> {
 		async function MethodNotAllowed(request) {
