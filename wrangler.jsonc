@@ -12,7 +12,11 @@
 	},
 	"routes": [
 		{
-		  "pattern": "*.daley.wedding/*",
+		  "pattern": "www.daley.wedding",
+		  "custom_domain": true
+		},
+		{
+		  "pattern": "daley.wedding",
 		  "custom_domain": true
 		}
 	]
